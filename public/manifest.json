@@ -1,0 +1,64 @@
+{
+  "name": "GramSathi — SIH 2026",
+  "short_name": "GramSathi",
+  "description": "AI-powered crop disease detection, pest forecasting, and agricultural intelligence for Indian farmers. Works on 2G, available in 9 Indian languages.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0fdf4",
+  "theme_color": "#16a34a",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "en-IN",
+  "categories": ["agriculture", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/gramsathi-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/gramsathi-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "GramSathi AI Dashboard"
+    },
+    {
+      "src": "/screenshot-narrow.jpg",
+      "sizes": "390x844",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "GramSathi Farmer Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Diagnose My Crop",
+      "url": "/farmer/diagnose",
+      "description": "Quick AI crop diagnosis",
+      "icons": [{ "src": "/favicon.ico", "sizes": "any" }]
+    },
+    {
+      "name": "Check Weather Risk",
+      "url": "/farmer/risk-forecast",
+      "description": "Weather-based disease risk",
+      "icons": [{ "src": "/favicon.ico", "sizes": "any" }]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
